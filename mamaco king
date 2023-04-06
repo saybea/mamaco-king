@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Tabela de Produtos - Mamaco King</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin: 20px;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        vertical-align: middle;
+      }
+      th {
+        background-color: #003399;
+        color: #ffffff;
+        font-size: 24px;
+        text-align: center;
+      }
+      th:first-child {
+        text-align: center;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="5">Mamaco King - Produtos em Estoque</th>
+      </tr>
+      <tr>
+        <th>Foto do Item</th>
+        <th>Nome do Item</th>
+        <th>Quantidade em Estoque</th>
+        <th>Preço Normal</th>
+        <th>Preço Promocional</th>
+      </tr>
+      <tr>
+        <td><img src="img/caneta esferografica.webp" alt="Produto 1"></td>
+        <td>Caneta Esferográfica Preta</td>
+        <td>250 unidades</td>
+        <td>R$ 2,50</td>
+        <td>R$ 2,00</td>
+      </tr>
+      <tr>
+        <td><img src="img/bloco de notas.jpg" alt="Produto 2"></td>
+        <td>Bloco de Notas Pautado</td>
+        <td>150 unidades</td>
+        <td>R$ 5,00</td>
+        <td>R$ 4,50</td>
+      </tr>
+      <tr>
+        <td><img src="img/clips.webp" alt="Produto 3"></td>
+        <td>Clips Colorido 100 unidades</td>
+        <td>500 unidades</td>
+        <td>R$ 3,00</td>
+        <td>R$ 2,50</td>
+      </tr>
+      <tr>
+        <td><img src="img/caderno.jpg" alt="Produto 4"></td>
+        <td>Caderno Espiral Pequeno</td>
+        <td>100 unidades</td>
+        <td>R$ 7,00</td>
+        <td>R$ 6,00</td>
+      </tr>
+      <tr>
+        <td><img src="img/tesoura.webp" alt="Produto 5"></td>
+        <td>Tesoura Escolar</td>
+        <td>200 unidades</td>
+        <td>R$ 4,00</td>
+        <td>R$ 3,50</td>
+      </tr>
+    </table>
+  </body>
+</html>
